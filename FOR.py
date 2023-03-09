@@ -23,6 +23,21 @@ for l in range(B,A,-1):
     print(l)
     N = N+1
 print(N)
+#4
+if 4<3:
+    priceperkg = float(input("Введите цену 1 кг конфет: "))
+
+    for kg in range(1, 11):
+        total_price = priceperkg * kg
+        print(f"{kg} кг конфет стоят {total_price} Гривен"
+#5
+priceperkg = 10
+for kg in range(0.1, 1-):
+    total_price = priceperkg * kg
+    print(f"{kg} 0,1 кг конфет стоят {total_price} Гривен")
+
+
+
     
     
 
