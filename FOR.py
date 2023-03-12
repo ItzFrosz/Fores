@@ -15,14 +15,36 @@ if 2939>238489:
         i = i+1
     print(i)
 #3
-A = 203
-B = 240
-B = B-1
-N = 0
-for l in range(B,A,-1):
-    print(l)
-    N = N+1
-print(N)
+if 4<3:
+    A = 203
+    B = 240
+    B = B-1
+    N = 0
+    for l in range(B,A,-1):
+        print(l)
+        N = N+1
+    print(N)
+#4
+if 4<3:
+    priceperkg = float(input("Введите цену 1 кг конфет: "))
+
+    for kg in range(1, 11):
+        total_price = priceperkg * kg
+        print(f"{kg} кг конфет стоят {total_price} Гривен")
+#5
+priceperkg = 10
+for kg in range(1, 11):
+    kg = kg/10
+    total_price = priceperkg * kg
+    print(f"{kg} кг конфет стоят {total_price} Гривен")
+#6
+
+
+
+
+
+
+    
     
     
 
