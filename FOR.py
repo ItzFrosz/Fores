@@ -42,33 +42,58 @@ if 4<3:
         total_price = priceperkg * kg
         print(f"{kg} кг конфет стоят {total_price} Гривен")
 #5
-priceperkg = 10
-for kg in range(1, 11):
-    kg = kg/10
-    total_price = priceperkg * kg
-    print(f"{kg} кг конфет стоят {total_price} Гривен")
+if 203>1000:
+    priceperkg = 10
+    for kg in range(1, 11):
+        kg = kg/10
+        total_price = priceperkg * kg
+        print(f"{kg} кг конфет стоят {total_price} Гривен")
 #6
-#price_per_kg = 100
-price_per_kg = 10
-for kg in range(12, 21, 2):
-    cost = price_per_kg * (kg / 10)
-    print(f"{kg/10} кг конфет стоят {cost} гривен")
+if 30>56:
+    #price_per_kg = 100
+    price_per_kg = 10
+    for kg in range(12, 21, 2):
+        cost = price_per_kg * (kg / 10)
+        print(f"{kg/10} кг конфет стоят {cost} гривен")
  #7
- 
-A = int(input("Введите число A: "))
-B = int(input("Введите число B: "))
-D = 0
-for i in range(A, B+1):
-    print(i)
-    D += i
-print("Сумма чисел от", A, "до", B, "включительно равна", D)
+if 12>31:
+    A = int(input("Введите число A: "))
+    B = int(input("Введите число B: "))
+    D = 0
+    for i in range(A, B+1):
+        print(i)
+        D += i
+    print("Сумма чисел от", A, "до", B, "включительно равна", D)
 #8
-A = int(input("Введите число A: "))
-B = int(input("Введите число B: "))
-proizvedenie = 1
-for i in range(A, B+1):
-    proizvedenie *= i
-print("Произведение чисел от", A, "до", B, "включительно равно", proizvedenie)
+if 32>303:
+    a  = 11
+    b = 20
+    D = 1
+    for i in range(a, b+1):   
+        D = D*i
+    print(D)
+#9
+if 32>304:
+    A = 11
+    B = 21
+    summ = 0
+    for i in range(A, B):
+        summ = summ+pow(i, 2)
+    print(summ)
+#10
+if 32>305:
+    N = 14
+    summ = 0
+    for i in range(N):
+        summ = summ+1/i
+    print(summ)
+#11
+N = 14
+summ = 0
+for i in range(0, N):
+    summ = summ+pow(N+i, 2)
+print(summ)
+
 
     
 
