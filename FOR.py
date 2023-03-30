@@ -84,16 +84,36 @@ if 32>304:
 if 32>305:
     N = 14
     summ = 0
-    for i in range(N):
+    for i in range(N+1):
         summ = summ+1/i
     print(summ)
 #11
 N = 14
 summ = 0
-for i in range(0, N):
+for i in range(0, N+1):
     summ = summ+pow(N+i, 2)
 print(summ)
+#12
+N = 5
+number = 12
+result = 1.1
+for i in range(N):
+    result *= (number + i) / 10
+    print((number + i) / 10)
 
+print("Результат : ", result)
+#13
+N = 13
+number = 12
+result = 1.1
+for i in range(N):
+    a = (number+i) / 10
+    if i% 2 == 1:
+        n = 1 
+    else:
+        n = -1
+    result = (result + a)*n
+print(result)
 
     
 
