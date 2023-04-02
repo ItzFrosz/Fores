@@ -88,32 +88,54 @@ if 32>305:
         summ = summ+1/i
     print(summ)
 #11
-N = 14
-summ = 0
-for i in range(0, N+1):
-    summ = summ+pow(N+i, 2)
-print(summ)
+if 230<304:
+    N = 14
+    summ = 0
+    for i in range(0, N+1):
+        summ = summ+pow(N+i, 2)
+    print(summ)
 #12
-N = 5
-number = 12
-result = 1.1
-for i in range(N):
-    result *= (number + i) / 10
-    print((number + i) / 10)
+if 230>304:
+    N = 5
+    number = 12
+    result = 1.1
+    for i in range(N):
+        result *= (number + i) / 10
+        print((number + i) / 10)
 
-print("Результат : ", result)
+    print("Результат : ", result)
 #13
-N = 13
-number = 12
-result = 1.1
-for i in range(N):
-    a = (number+i) / 10
-    if i% 2 == 1:
-        n = 1 
-    else:
-        n = -1
-    result = (result + a)*n
-print(result)
+if 230>304:
+    N = 13
+    number = 12
+    result = 1.1
+    for i in range(N):
+        a = (number+i) / 10
+        if i% 2 == 1:
+            n = 1 
+        else:
+            n = -1
+        result = (result + a)*n
+    print(result)
+#14
+if 230>304:
+    N = 28
+    summ = 0
+    for i in range(1, N+1):
+        summ = summ+(2*i-1)
+    print(summ)
+#15
+A = 2
+N = 4
+num = A
+for i in range(N-1):
+    print(i)
+    num = num*A
+print(num)
+
+
+
+
 
     
 
