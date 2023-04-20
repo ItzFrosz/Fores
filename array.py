@@ -17,6 +17,21 @@ for i in range(N):
         a = pow(2, i)
         masiv.append(a)
 print(masiv)
+#3
+N = 5
+A = 2
+D = 4
+
+result = []
+
+#A + D*i
+#A * D^i
+
+for i in range(N):
+    number = A * pow(D, i)
+    result.append(number)
+
+print(result)
 
 
 
